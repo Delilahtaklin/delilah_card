@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delilah Taklin Studio</title>
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Delilah Taklin Studio">
+  <meta property="og:description" content="Brand Architect. Art Director.">
+  <meta property="og:image" content="logo.png">
+  <meta property="og:type" content="website">
+
+  <!-- Adobe Fonts (Typekit) — Bodoni Moda & Avenir Next -->
+  <link rel="stylesheet" href="https://use.typekit.net/nzj1ooa.css">
+
+  <style>
+    /* ============================================
+       RESET & BASE
+       ============================================ */
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      background-color: #141210;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 48px 24px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* ============================================
+       CARD CONTAINER
+       ============================================ */
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 320px;
+    }
+
+    /* ============================================
+       LOGO
+       ============================================ */
+    .logo {
+      max-width: 280px;
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 32px;
+    }
+
+    /* ============================================
+       TAGLINE
+       ============================================ */
+    .tagline {
+      font-family: "bodoni-moda", "Bodoni Moda", serif;
+      font-size: 14px;
+      letter-spacing: 0.15em;
+      color: #D9DAD9;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 1.6;
+      margin-bottom: 48px;
+    }
+
+    /* ============================================
+       BUTTONS
+       ============================================ */
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      width: 100%;
+    }
+
+    .btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 280px;
+      min-height: 44px;
+      padding: 14px 32px;
+      border: 0.5px solid #D9DAD9;
+      border-radius: 0;
+      background: transparent;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: rgba(101, 9, 51, 0.8);
+    }
+
+    .btn span {
+      font-family: "avenir-next", "Avenir Next", sans-serif;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      color: #F8F8F8;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    /* ============================================
+       MOBILE
+       ============================================ */
+    @media (max-width: 480px) {
+      .btn {
+        width: 100%;
+        max-width: 320px;
+      }
+
+      .logo {
+        max-width: 240px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <main class="card">
+
+    <!-- Logo -->
+    <img src="logo.png" alt="Delilah Taklin Studio" class="logo">
+
+    <!-- Tagline -->
+    <p class="tagline">Branding, Art Direction<br>&amp; Heritage Design</p>
+
+    <!-- Buttons -->
+    <nav class="buttons">
+
+      <!-- 01 — The Vault (Behance) -->
+      <a href="https://www.behance.net/delilahtaklinstudio" target="_blank" rel="noopener noreferrer" class="btn">
+        <span>The Vault</span>
+      </a>
+
+      <!-- 02 — The Gallery (Instagram) -->
+      <a href="https://www.instagram.com/delilahtaklin_studio/" target="_blank" rel="noopener noreferrer" class="btn">
+        <span>The Gallery</span>
+      </a>
+
+      <!-- 03 — Commission The Project (Email) -->
+      <a href="mailto:brief@delilahtaklin.studio" class="btn">
+        <span>Commission The Project</span>
+      </a>
+
+      <!-- 04 — The Dialogue (Phone) -->
+      <a href="tel:+971585652394" class="btn">
+        <span>The Dialogue</span>
+      </a>
+
+      <!-- 05 — The Intelligence Agency (LinkedIn) -->
+      <a href="https://www.linkedin.com/in/eliza-dudaeva-970592237/" target="_blank" rel="noopener noreferrer" class="btn">
+        <span>The Intelligence Agency</span>
+      </a>
+
+    </nav>
+
+  </main>
+
+</body>
+</html>
